@@ -1,0 +1,21 @@
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border-right: 0.15rem solid $color-primary;
+  margin: 3rem 0 3rem 0;
+
+  &__list {
+    transform: rotate(-90deg);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    list-style: none;
+  }
+  &__item {
+    margin: 0 4rem 0 4rem;
+  }
+  &__link {
+  }
+}

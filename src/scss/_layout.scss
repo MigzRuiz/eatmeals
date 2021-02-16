@@ -1,0 +1,22 @@
+#app {
+  display: grid;
+  grid-template-columns: [sidebar-start] 8rem [sidebar-end main-col-start] 1fr [main-col-end];
+  grid-template-rows: [topbar-start] 8rem [topbar-end main-row-start] calc(
+      100vh - 8rem
+    ) [main-row-end];
+
+  .side-nav {
+    grid-column: sidebar-start/ sidebar-end;
+    grid-row: topbar-start / main-row-end;
+  }
+  .top-nav {
+    grid-column: main-col-start / main-col-end;
+    grid-row: topbar-start / topbar-end;
+  }
+  .main {
+    grid-column: main-col-start / main-col-end;
+    grid-row: main-row-start / main-row-end;
+
+    overflow: auto;
+  }
+}

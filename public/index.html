@@ -3,9 +3,158 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla Parcel Boilerplate</title>
+    <title>EAT MEALS</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="../src/scss/app.scss" />
     <script defer src="../src/main.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div id="app">
+      <nav class="side-nav">
+        <ul class="side-nav__list">
+          <!-- <li class="side-nav__item"><a href="#" class="side-nav__link">E</a></li> -->
+          <li class="side-nav__item">
+            <a href="#" class="side-nav__link btn btn__link btn__menu">Menu</a>
+          </li>
+          <li class="side-nav__item">
+            <a href="#" class="side-nav__link btn btn__border">Mission</a>
+          </li>
+          <li class="side-nav__item">
+            <a href="#" class="side-nav__link btn btn__border">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="top-nav">
+        <ul class="top-nav__list">
+          <li class="top-nav__item">
+            <a href="#" class="top-nav__link btn heading__btn">EatMeals</a>
+          </li>
+          <li class="top-nav__item">
+            <a href="#" class="top-nav__link btn btn__rec btn__rec--light"
+              >Open today!</a
+            >
+          </li>
+          <li class="top-nav__item">
+            <a href="#" class="top-nav__link btn btn__rec btn__rec--dark"
+              >Order Online</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="main">
+        <header class="hero">
+          <div class="hero__box">
+            <h1 class="heading__h1 hero__heading">
+              Order Healthy & Fresh Food Anytime
+            </h1>
+            <ul class="hero__list">
+              <li class="hero__item btn__rec">
+                <img src="" alt="" /><span
+                  >Keep healthy food readily available. When you get hungry,
+                  you're more likely to eat the first thing you see on the
+                  counter.</span
+                >
+              </li>
+              <li class="hero__item btn__rec">
+                <img src="" alt="" /><span>Lorem ipsum dolor sit. </span>
+              </li>
+              <li class="hero__item btn__rec">
+                <img src="" alt="" /><span
+                  >Lorem ipsum dolor sit, amet consectetur adipisicing
+                  elit.</span
+                >
+              </li>
+            </ul>
+          </div>
+
+          <img src="../src/img/img-3.PNG" alt="img" class="hero__img" />
+        </header>
+        <section class="menu-l">
+          <h1 class="heading__h1 menu-l__title">Menu</h1>
+          <ul class="menu-l__list">
+            <li class="menu-l__item">
+              <a href="#" class="side-nav__link btn btn__link">Greens</a>
+            </li>
+            <li class="menu-l__item">
+              <a href="#" class="side-nav__link btn btn__link">Dessert</a>
+            </li>
+            <li class="menu-l__item">
+              <a href="#" class="side-nav__link btn btn__link">Vegetarian</a>
+            </li>
+            <li class="menu-l__item">
+              <a href="#" class="side-nav__link btn btn__link">Bowls</a>
+            </li>
+          </ul>
+          <ul class="menu-l__cards">
+            <li class="menu-l__card">
+              <span class="menu-l__card--price">$69</span>
+              <img
+                src="../src/img/img-3.PNG"
+                alt="img-3"
+                class="menu-l__card--img"
+              />
+              <h3 class="heading__h3 menu-l__card--title">Bowl</h3>
+              <p class="menu-l__card--ingredients">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                fugit, odio non cum quo, nostrum reprehenderit quidem quos harum
+                voluptate earum labore a dignissimos
+              </p>
+              <a href="#" class="menu-l__card--cta btn btn__rec btn__rec--dark"
+                >Order Online</a
+              >
+            </li>
+            <li class="menu-l__card">
+              <span class="menu-l__card--price">$69</span>
+              <img
+                src="../src/img/img-1.PNG"
+                alt="img-1"
+                class="menu-l__card--img"
+              />
+              <h3 class="heading__h3 menu-l__card--title">Bowl</h3>
+              <p class="menu-l__card--ingredients">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                fugit, odio non cum quo, nostrum reprehenderit quidem quos harum
+                voluptate earum labore a dignissimos
+              </p>
+            </li>
+            <li class="menu-l__card">
+              <span class="menu-l__card--price">$69</span>
+              <img
+                src="../src/img/img-2.PNG"
+                alt="img-2"
+                class="menu-l__card--img"
+              />
+              <h3 class="heading__h3 menu-l__card--title">Bowl</h3>
+              <p class="menu-l__card--ingredients">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                fugit, odio non cum quo, nostrum reprehenderit quidem quos harum
+                voluptate earum labore a dignissimos
+              </p>
+            </li>
+            <li class="menu-l__card">
+              <span class="menu-l__card--price">$69</span>
+              <img
+                src="../src/img/img-4.PNG"
+                alt="img-4"
+                class="menu-l__card--img"
+              />
+              <h3 class="heading__h3 menu-l__card--title">Bowl</h3>
+              <p class="menu-l__card--ingredients">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                fugit, odio non cum quo, nostrum reprehenderit quidem quos harum
+                voluptate earum labore a dignissimos
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="mission"></section>
+        <footer class="footer"></footer>
+      </div>
+    </div>
+  </body>
 </html>
